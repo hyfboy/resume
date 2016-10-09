@@ -5,6 +5,11 @@ body {
 }
 .container {
 	height: 100%;
+	background-color: #E2E4E5;
+}
+.both-padding {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .info {
@@ -28,7 +33,6 @@ body {
 	border-top: 1px solid #B4B4B4;
 	border-bottom: 1px solid #B4B4B4;
 	border-right: 1px solid #B4B4B4;
-	height: 80px;
 }
 .info .row > div:last-child {
 	border-right: none;
@@ -43,25 +47,47 @@ body {
 }
 
 .nav {
-	background-color: #E2E4E5;
+	
 }
 .nav ul li {
-	padding-left: 15px;
+	padding-left: 30px;
 	line-height: 52px;
 	border-bottom: 1px solid #C4C4C4;
 	font-size: 1.2em;
 }
+.nav ul li i {
+	width: 30px;
+}
+.nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333333;
+}
+.nav ul li:hover, .nav ul li a:hover {
+	color: #E83428;
+	background-color: #C9CACC;
+}
+.nav ul li:visited {
+	background-color: #C9CACC;
+}
 
 .content {
-	padding: 30px 0;
+	padding: 30px;
+	background-color: #F1F1F1;
 }
 .content p {
 	line-height: 1.8em;
 }
-.content ul li {
-	line-height: 1.8em;
+.content h3 {
+	margin-top: 30px;
 }
-.content ul li span {
-	display: inline-block;
-	width: 100px;
+.content h3 span {
+	display: block;
+	padding: 10px 0 0 0;
+	border-bottom: 1px solid #C9CACC;
+}
+.content h4 small {
+	display: block;
+	padding: 16px 0;
+	font-size: 0.6em;
 }
